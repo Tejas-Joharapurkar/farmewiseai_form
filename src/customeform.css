@@ -1,0 +1,36 @@
+.dynamic-form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    /* Adjust the max-width as needed */
+    margin: auto;
+    background: #353d55;
+    box-shadow: 3px 4px 8px rgba(255, 255, 255, 0.701);
+    border-radius: 12px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dynamic-form div {
+    margin-bottom: 15px;
+}
+
+.dynamic-form label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.dynamic-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px
+}
+
+.dynamic-form button:hover {
+    background-color: #45a049;
+    box-shadow: 3px 4px 8px rgba(255, 255, 255, 0.701);
+}
